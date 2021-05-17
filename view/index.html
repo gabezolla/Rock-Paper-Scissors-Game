@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper & Scissors</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Rock, Paper & Scissors</h1>
+
+    <p class="show-winner">Who's gonna win?</p>
+    <div class="scoreboard">
+        <div class="player-info">
+            <h3>Player</h3>
+            <p class="player-points">0</p>
+        </div>
+        <div class="pc-info">
+            <h3>Computer</h3>
+            <p class="pc-points">0</p>
+        </div>
+    </div>
+
+    <div class="images-container">
+        <img src="../images/paper.png" class="player-choice">
+        <img src="../images/paper.png" class="pc-choice">
+    </div>
+
+    <div class="button-container">
+        <button type="button" class="btn btn-primary" id="rock">rock</button>
+        <button type="button" class="btn btn-primary" id="paper">paper</button>
+        <button type="button" class="btn btn-primary" id="scissors">scissors</button>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+
+</html>
